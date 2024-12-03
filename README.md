@@ -1,7 +1,7 @@
-**CI/CD Pipeline Demo
-**
+**CI/CD Pipeline Demo**
+
 This repository demonstrates a basic CI/CD pipeline for a Python web application using Docker and GitHub Actions. The pipeline automates building, testing, and deploying the application, showcasing how to integrate modern DevOps practices.
-**
+
 Table of Contents**
 
 	•	Overview

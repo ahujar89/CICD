@@ -1,8 +1,8 @@
-CI/CD Pipeline Demo
-
+**CI/CD Pipeline Demo
+**
 This repository demonstrates a basic CI/CD pipeline for a Python web application using Docker and GitHub Actions. The pipeline automates building, testing, and deploying the application, showcasing how to integrate modern DevOps practices.
-
-Table of Contents
+**
+Table of Contents**
 
 	•	Overview
 	•	Features
@@ -21,7 +21,7 @@ This project implements a basic Python web application that displays a “Hello 
 	2.	Push the Docker image to Docker Hub.
 	3.	Allow easy deployment of the application locally or to a server.
 
-Features
+**Features**
 
 	•	Continuous Integration:
 	•	Automatically builds the Docker image when changes are pushed to the main branch.
@@ -30,14 +30,14 @@ Features
 	•	Local Testing:
 	•	Provides a simple way to pull and run the Docker image locally.
 
-Tech Stack
+**Tech Stack**
 
 	•	Programming Language: Python
 	•	Framework: Flask
 	•	Containerization: Docker
 	•	CI/CD: GitHub Actions
 
-Pipeline Workflow
+**Pipeline Workflow**
 
 The pipeline is defined in .github/workflows/deploy.yml and includes the following steps:
 	1.	Checkout Code: Pulls the code from the repository.
@@ -47,7 +47,7 @@ The pipeline is defined in .github/workflows/deploy.yml and includes the followi
 	5.	Tag and Push Image: Tags the image with the username/repository name and pushes it to Docker Hub.
 	6.	Run Docker Container: Starts the container to validate the build.
 
-Setup Instructions
+**Setup Instructions**
 
 Prerequisites
 
@@ -55,7 +55,7 @@ Prerequisites
 	•	A Docker Hub account.
 	•	Git installed and configured.
 
-Steps to Run Locally
+**Steps to Run Locally**
 
 	1.	Clone the Repository:
         git clone https://github.com/your-username/CICD.git
@@ -73,7 +73,7 @@ Steps to Run Locally
     4.	Access the Application:
         Open your browser and go to: http://localhost:8080
     
-How It Works
+**How It Works**
 
 Application Code
 
@@ -85,7 +85,7 @@ CI/CD Pipeline
 	2.	The pipeline builds and pushes a Docker image to Docker Hub.
 	3.	The image can then be pulled and run locally or on a server.
 
-Demo
+**Demo**
 
 Here’s what happens when you push code to the main branch:
 	1.	GitHub Actions runs the CI/CD pipeline.
